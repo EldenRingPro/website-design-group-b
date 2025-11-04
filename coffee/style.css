@@ -1,0 +1,18 @@
+/* Css Reset */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    line-height: 1.5;
+}
+
+/******************************** SWATCHES **********************************/
+.swatch .swatch-value {
+    background-color: black;
+    aspect-ratio: 1 / 1;
+    width: 4rem;    /* em - root font size (10px) */
+    border-radius: 100%;
+}
