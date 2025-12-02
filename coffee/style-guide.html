@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
+    
+    
     <link rel="stylesheet" href="style.css">
-
-
+    
+    
     <title>Coffee Shop Style Guide</title>
 </head>
 <body>
@@ -15,113 +15,123 @@
     <main class="container">
         <h1>Coffee Shop Style Guide</h1>
         <p>Design tokens and reusable styles for the website.</p>
-
-            <!-- Color Palette -->
+        
+        <!-- Color Palette -->
         <section id="colors" class="m-2 p-2 shadow-dark">
             <h2>Color Palette</h2>
-
+            
             <article class="swatches d-flex gap-2">
-
+                
                 <!-- color swatch -->
                 <div class="swatch">
                     <div class="swatch-value bg-primary"></div>
                     <p class="swatch-name">Primary</p>
                 </div>
-
+                
                 <!-- color swatch -->
                 <div class="swatch">
                     <div class="swatch-value bg-dark"></div>
                     <p class="swatch-name">Dark</p>
                 </div>
-
+                
                 <!-- color swatch -->
                 <div class="swatch">
                     <div class="swatch-value bg-muted"></div>
                     <p class="swatch-name">Muted</p>
                 </div>
-
+                
                 <!-- color swatch -->
                 <div class="swatch">
                     <div class="swatch-value bg-light"></div>
                     <p class="swatch-name">Light</p>
                 </div>
-
+                
             </article>
         </section>
-            <!-- FOnts and Typography-->
+        <!-- Fonts and Typography-->
         <section id="typography" class="m-2 p-2 shadow-dark">
             <h2>Typography</h2>
-
-          <h1 class="heading-xl">Heading XL - Coffee Shop</h1>
-          <h2 class="heading-lg">Heading LG - Freshly Brewed</h2>
-          <p>Body Text - Used for general description</p>
-          <p class="text-muted bg-dark">Muted text - for subtle details</p>
-        
+            
+            <h1 class="heading-xl">Heading XL - Coffee Shop</h1>
+            <h2 class="heading-lg">Heading LG - Freshly Brewed</h2>
+            <p>Body Text - Used for general description</p>
+            <p class="text-muted bg-dark">Muted text - for subtle details</p>
+            
+            <p class="line-1">Single line cutoff - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui repellendus sequi dolorem fugit omnis aliquam quasi. Error sequi aperiam, nobis ea repellendus labore incidunt ipsa totam! Fugit provident soluta harum similique dolor illo ut laborum veniam possimus fuga nemo assumenda iusto dolore, aut qui, totam doloremque consequatur deleniti dignissimos ipsam repudiandae placeat doloribus velit. Neque nobis, sit beatae temporibus amet repellendus illo ad veniam nostrum. Hic tempore dolorum voluptatem recusandae minus sequi maxime ab veniam facere inventore, exercitationem aut adipisci expedita consequatur amet praesentium, delectus, et maiores ut ea quo veritatis molestiae officia voluptas? Ea velit tenetur, facere iusto, ut aperiam delectus veritatis, atque voluptate tempora aut tempore aliquid amet. Vitae, officiis doloribus magni sequi obcaecati alias ullam possimus, quasi error beatae esse tempora corrupti nihil distinctio voluptatibus explicabo libero iure assumenda expedita maiores eos laborum? Non temporibus consectetur incidunt at qui similique a soluta molestias dolor atque architecto, corrupti ipsum quos exercitationem ratione, molestiae cupiditate veritatis? Soluta laboriosam sit eligendi harum! Eligendi blanditiis impedit veniam recusandae quidem molestias, molestiae dolores veritatis culpa ullam laudantium tempora autem odit esse? Numquam pariatur, accusamus, incidunt odit optio tenetur at aspernatur animi doloribus ex nulla commodi cupiditate ab autem perferendis neque harum adipisci?</p>
+            <p class="line-2">Double line cutoff - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam inventore id dolores illo voluptatum ad delectus fugit saepe laborum. Laudantium necessitatibus, adipisci accusamus dolores error ratione quasi perspiciatis molestiae ad ab repellendus ex modi recusandae? Hic vel obcaecati ex quasi amet eum, nulla odio eligendi similique eius soluta architecto suscipit adipisci incidunt illum quis. Consectetur omnis esse excepturi exercitationem inventore nobis nulla eligendi nisi! Excepturi natus quas cumque nisi sequi enim eaque. Maxime ut doloremque explicabo, veniam nam laudantium. Aperiam tenetur perferendis neque, qui illo quaerat debitis labore libero ea provident vitae iure? Esse sit asperiores ducimus, nisi ullam, earum minima minus excepturi molestiae quidem tempora eaque inventore eligendi fugit ipsa ab totam adipisci. Maxime blanditiis architecto, unde sed quae delectus, deserunt consectetur, impedit magnam in dolorem ut! Laboriosam doloribus consequuntur iure maxime, doloremque odio expedita qui animi temporibus minima explicabo ratione exercitationem voluptate non sed nemo. Perferendis laborum libero magnam rerum quos debitis sint, minima sit odio unde, asperiores perspiciatis inventore ipsam fugit neque itaque exercitationem reprehenderit mollitia. Unde quibusdam facilis sit quo error debitis earum atque quam voluptate quisquam nesciunt non, quidem natus deleniti illum odio, praesentium iusto veniam fugiat. Adipisci facilis laboriosam, aliquid unde molestias tempore cumque.</p>
+            
         </section>
         
         <!-- Spacing and Sizing-->
-         <section id="spacing" class="m-2 p-2 shadow-dark">
+        <section id="spacing" class="m-2 p-2 shadow-dark">
             <h2>spacing and Sizing</h2>
             
             <div class="bg-muted p-0 m-1">.p-0 - No Padding</div>
             <div class="bg-muted p-1 m-1">.p-1 - Samll Padding</div>
             <div class="bg-muted p-2 m-1">.p-2 - Normal Padding</div>
             <div class="bg-muted p-3 m-1">.p-3 - Large Padding</div>
-         </section>   
-           <!-- layout Utils -->
-            <section id="layout" class="m-2 p-2 shadow-dark">
-                <h2>Layout Utils</h2>
-
-                <div class="d-flex flex-between">
-                    <strong>Label</strong> <!-- bold-->
-                    <span>Value</span> <!-- text -->
-                </div>
-
-
-                <div class="grid-2col gap-2 m-2">
-                    <div class="bg-muted p-2">Col 1</div>
-                    <div class="bg-muted p-2">Col 2</div>
-                </div>
-                <div class="grid-3col gap-2 m-2">
-                    <div class="bg-muted p-2">Col 1</div>
-                    <div class="bg-muted p-2">Col 2</div>
-                    <div class="bg-muted p-2">Col 3</div>
-                </div>
-
-
-            </section>
-
-            <!-- Buttins and Links-->
-             <section id="buttons" class="m-2 p-2 shadow-dark">
-                <h2>Buttons and Links</h2>
-
-                <button class="btn btn-primary">Primary Button</button>
-                <button class="btn btn-secondary">Secondary Button</button>
-                <a href="#" class="link">Inline Link</a>
-             </section>
-
-             <!-- Compoments -->
-              <section id="compoments" class="m-2 p-2 shadow-dark">
-                <h2>Compoments</h2>
-
-                <!-- Product image -->
-                 <p>Product</p>
-                 <figure class="product-image">
-                     <img src="assets/coffee-cup.png" alt="">
-                     <figcaption class="product-tag">50% off-&euro;2.50</figcaption>
-                 </figure>
-
-                 <p>tag Styles:</p>
-                 <ul class="tags m-1">
-                    <li class="tag-item">Tag 1</li>
-                    <li class="tag-item">Tag 2</li>
-                 </ul>
-
-                 <div class="tags m-1">
-                    <a href="#" class="tag-item">Tag 1</a>
-                    <a href="#" class="tag-item">Tag 2</a></div>
-              </section>
+        </section>   
+        <!-- layout Utils -->
+        <section id="layout" class="m-2 p-2 shadow-dark">
+            <h2>Layout Utils</h2>
+            
+            <div class="d-flex flex-between">
+                <strong>Label</strong> <!-- bold-->
+                <span>Value</span> <!-- text -->
+            </div>
+            
+            
+            <div class="grid-2col gap-2 m-2">
+                <div class="bg-muted p-2">Col 1</div>
+                <div class="bg-muted p-2">Col 2</div>
+            </div>
+            <div class="grid-3col gap-2 m-2">
+                <div class="bg-muted p-2">Col 1</div>
+                <div class="bg-muted p-2">Col 2</div>
+                <div class="bg-muted p-2">Col 3</div>
+            </div>
+            
+            
+        </section>
+        
+        <!-- Buttins and Links-->
+        <section id="buttons" class="m-2 p-2 shadow-dark">
+            <h2>Buttons and Links</h2>
+            
+            <button class="btn btn-primary">Primary Button</button>
+            <button class="btn btn-secondary">Secondary Button</button>
+            <a href="#" class="link">Inline Link</a>
+        </section>
+        
+        <!-- Compoments -->
+        <section id="compoments" class="m-2 p-2 shadow-dark">
+            <h2>Compoments</h2>
+            
+            <!-- Product image -->
+            <p>Product</p>
+            <figure class="product-image">
+                <img src="assets/coffee-cup.png" alt="">
+                <figcaption class="product-tag">50% off-&euro;2.50</figcaption>
+            </figure>
+            
+            <p>Product</p>
+            <figure class="product-image">
+                <img src="assets/coffee 2.png" alt="">
+                <figcaption class="product-tag">50% off-&euro;2.50</figcaption>
+            </figure>
+            
+            <p>tag Styles:</p>
+            <ul class="tags m-1">
+                <li class="tag-item">Tag 1</li>
+                <li class="tag-item">Tag 2</li>
+            </ul>
+            
+            <div class="tags m-1">
+                <a href="#" class="tag-item">Tag 1</a>
+                <a href="#" class="tag-item">Tag 2</a>
+            </div>
+        </section>
     </main>
-
+    
 </body>
 </html>
